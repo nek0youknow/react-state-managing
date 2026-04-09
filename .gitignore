@@ -1,0 +1,16 @@
+# Monorepo/workspace ignores
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Logs
+**/logs/
+**/*.log
+
+# Local env files
+**/*.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
