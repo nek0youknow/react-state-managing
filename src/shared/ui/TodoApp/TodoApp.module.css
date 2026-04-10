@@ -1,0 +1,117 @@
+.todoApp {
+  width: min(680px, calc(100vw - 32px));
+  margin: 48px auto;
+  padding: 20px;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 12px;
+  background: rgba(127, 127, 127, 0.08);
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.meta {
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+}
+
+.btn {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filters {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+
+.filterBtn {
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 127, 127, 0.35);
+  background: transparent;
+  color: inherit;
+  font-size: 12px;
+}
+
+.filterBtnActive {
+  border-color: rgba(100, 108, 255, 0.9);
+}
+
+.list {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  background: rgba(127, 127, 127, 0.06);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.todoTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.empty {
+  margin-top: 16px;
+  opacity: 0.75;
+  font-size: 14px;
+}
+
