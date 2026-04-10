@@ -11,14 +11,9 @@ This is my **React + TypeScript** playground to **learn and compare state manage
 
 The point is not “which is best”, but **what feels best for different kinds of state** (local UI state, global client state, derived state, async/server-ish state).
 
-## Status
-
-- **Currently**: base Vite app (starter UI in `src/App.tsx`)
-- **Next**: add implementations under `src/implementations/`
-
 ## Setup & run
 
-From the `state-managers/` folder:
+From the repo root:
 
 ```bash
 npm install
