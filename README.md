@@ -1,5 +1,9 @@
 # State Managers Playground (React)
 
+[![Stars](https://img.shields.io/github/stars/nek0youknow/react-state-managing)](https://github.com/nek0youknow/react-state-managing/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/nek0youknow/react-state-managing)](https://github.com/nek0youknow/react-state-managing/commits/main)
+[![License](https://img.shields.io/github/license/nek0youknow/react-state-managing)](https://github.com/nek0youknow/react-state-managing/blob/main/LICENSE)
+
 This is my **React + TypeScript** playground to **learn and compare state managers** by building the *same mini-app* multiple times:
 
 - React built-ins (local state, Context, `useReducer`)
