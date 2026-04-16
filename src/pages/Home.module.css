@@ -1,0 +1,41 @@
+.wrap {
+  width: min(680px, calc(100vw - 32px));
+  margin: 48px auto;
+  padding: 20px;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  border-radius: 12px;
+  background: rgba(127, 127, 127, 0.08);
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+
+.links {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  background: rgba(127, 127, 127, 0.06);
+}
+
+.hint {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
